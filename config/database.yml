@@ -89,10 +89,10 @@ production:
   <<: *default
   adapter: postgresql
   encoding: unicode
-  database: clon_twitter
+  database: clon_twitter_xdq8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: <%= ENV['RENDER_POSTGRES_USER'] %>
-  password: <%= ENV['RENDER_POSTGRES_PASSWORD'] %>
-  host: <%= ENV['RENDER_POSTGRES_HOST'] %>
-  port: <%= ENV['RENDER_POSTGRES_PORT'] %>
+  username: clon_twitter
+  password: 3XRtjGfI27JrqnJVO4NM1Uoj8a0T0bpf
+  host: dpg-chn9m0ndvk4n43ap27d0-a
+  port: 5432
 
